@@ -126,3 +126,14 @@ header {
 #confirmation {
     color: #60d855;
 }
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    /* Adjust other elements as needed */
+  }
