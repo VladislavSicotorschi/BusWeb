@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    margin:0;
+    /* Set background image */
+    background-image: url('images/var_1.jpg');
+    /* Set background size */
+    background-size: cover; /* Adjust as per your requirement */
+    /* Set background repeat */
+    background-repeat: no-repeat; /* Optional */
+    /* Set background position */
+    background-position: center calc(40% - 20px); /* Optional */
+}
+p {
+    font-size: 18px;
+    color: #e0993c;
+}
+
+#phoneNumber {
+    font-size: 15px;
+    color: #e0993c;
+}
+
+.booking-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e0993c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.booking-button:hover {
+    background-color: #218838;
+}
+#bookingForm {
+    margin-top: 30px;
+}
+.gallery-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e0993c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.gallery-button:hover {
+    background-color: #218838;
+}
+.gallery {
+    display: flex;
+    flex-direction: row; /* Ensure the items are displayed in a row */
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0093f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+header {
+    font-size: 20px;
+    background: #333;
+    color: #e0993c;
+    padding: 10px 50px; /* Adjusted padding */
+    text-align: center;
+    display: inline-block;
+    margin: 0 -10px; /* Negative margin to extend background color */
+}
+.footer {
+    background-color: #333;
+    color: #e0993c;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#confirmation {
+    color: #60d855;
+}
