@@ -35,5 +35,4 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Please fill in all fields.');
         }
     });
-});
-//color id green #60d855
+});//color id green #60d855

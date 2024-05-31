@@ -11,7 +11,7 @@ body {
     /* Set background repeat */
     background-repeat: no-repeat; /* Optional */
     /* Set background position */
-    background-position: center calc(40% - 20px); /* Optional */
+    background-position: center center; /* Optional */
 }
 p {
     font-size: 18px;
@@ -130,7 +130,8 @@ header {
 @media (max-width: 768px) {
     body {
         padding: 10px;
-        background-position: center calc(40% - 10px); /* Adjust as necessary */
+        background-position: center center; /* Adjust as necessary */
+        background-size: cover;
     }
 
     p {
@@ -166,7 +167,7 @@ header {
     body {
         padding: 5px;
         background-size: cover;
-        background-position: center top; /* Adjust as necessary */
+        background-position: center center; /* Adjust as necessary */
     }
 
     p {
