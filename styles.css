@@ -126,14 +126,80 @@ header {
 #confirmation {
     color: #60d855;
 }
-@media (max-width: 600px) {
+/* Responsive CSS */
+@media (max-width: 768px) {
     body {
-      font-size: 14px;
+        padding: 10px;
     }
-  
-    .container {
-      padding: 10px;
+
+    p {
+        font-size: 16px;
     }
-  
-    /* Adjust other elements as needed */
-  }
+
+    .booking-button,
+    .gallery-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input {
+        padding: 8px;
+    }
+
+    button[type="submit"] {
+        padding: 8px;
+    }
+
+    header {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .booking-button,
+    .gallery-button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input {
+        padding: 6px;
+    }
+
+    button[type="submit"] {
+        padding: 6px;
+    }
+
+    header {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-item img {
+        height: 100px;
+    }
+}
