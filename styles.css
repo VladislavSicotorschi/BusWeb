@@ -130,6 +130,7 @@ header {
 @media (max-width: 768px) {
     body {
         padding: 10px;
+        background-position: center calc(40% - 10px); /* Adjust as necessary */
     }
 
     p {
@@ -164,6 +165,8 @@ header {
 @media (max-width: 480px) {
     body {
         padding: 5px;
+        background-size: cover;
+        background-position: center top; /* Adjust as necessary */
     }
 
     p {
